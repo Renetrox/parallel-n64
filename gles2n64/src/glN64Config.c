@@ -82,12 +82,6 @@ static Option configOptions[] =
    {"#Hack Settings:", NULL, 0},
    {"hack alpha", &config.hackAlpha, 0},
    {"hack z", &config.zHack, 0},
-    
-   {"#Frameskip:", NULL, 0},
-   {"Autoframeskip", &config.frameskip, 1},
-   {"target FPS", &config.FPS, 20},
-   {"frame render rate", &config.render, 1},
-   {"", NULL, 0},
 
 };
 
