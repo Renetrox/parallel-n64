@@ -1,3 +1,4 @@
+ 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *   Mupen64plus - Config_nogui.cpp                                        *
  *   Mupen64Plus homepage: http://code.google.com/p/mupen64plus/           *
