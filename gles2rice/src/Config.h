@@ -216,7 +216,7 @@ typedef struct {
     bool    bEnableHacks;
     bool    bWinFrameMode;
     bool    bOGLVertexClipper;
-    bool    bSkipFrame = 1;
+    bool    bSkipFrame;
     bool    bFullTMEM;
     bool    bUseFullTMEM;
 
