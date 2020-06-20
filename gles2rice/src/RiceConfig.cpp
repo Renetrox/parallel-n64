@@ -349,7 +349,7 @@ bool InitConfiguration(void)
     ConfigSetDefaultBool(l_ConfigVideoRice, "WinFrameMode", false, "If enabled, graphics will be drawn in WinFrame mode instead of solid and texture mode");
     ConfigSetDefaultBool(l_ConfigVideoRice, "FullTMEMEmulation", false, "N64 Texture Memory Full Emulation (may fix some games, may break others)");
     ConfigSetDefaultBool(l_ConfigVideoRice, "OpenGLVertexClipper", false, "Enable vertex clipper for fog operations");
-    ConfigSetDefaultBool(l_ConfigVideoRice, "SkipFrame", false, "If this option is enabled, the plugin will skip every other frame");
+    ConfigSetDefaultBool(l_ConfigVideoRice, "SkipFrame", true, "If this option is enabled, the plugin will skip every other frame");
     ConfigSetDefaultBool(l_ConfigVideoRice, "TexRectOnly", false, "If enabled, texture enhancement will be done only for TxtRect ucode");
     ConfigSetDefaultBool(l_ConfigVideoRice, "SmallTextureOnly", false, "If enabled, texture enhancement will be done only for textures width+height<=128");
     ConfigSetDefaultBool(l_ConfigVideoRice, "LoadHiResCRCOnly", true, "Select hi-resolution textures based only on the CRC and ignore format+size information (Glide64 compatibility)");
