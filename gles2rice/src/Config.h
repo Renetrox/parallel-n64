@@ -292,6 +292,7 @@ typedef struct IniSection
     uint32_t  dwFrameBufferOption;
     uint32_t  dwRenderToTextureOption;
     uint32_t  dwScreenUpdateSetting;
+    uint32_t  dwSkipFrame;
 
     // Options with FALSE as default values
     bool    bDisableBlender;
