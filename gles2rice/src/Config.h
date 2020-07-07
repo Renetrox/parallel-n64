@@ -357,6 +357,7 @@ typedef struct
     uint32_t  dwFrameBufferOption;
     uint32_t  dwRenderToTextureOption;
     uint32_t  dwScreenUpdateSetting;
+    uint32_t  dwFrameskip;
 
     // With FALSE as its default values
     bool    bForceScreenClear;
